@@ -61,3 +61,8 @@ uvicorn analyzer:app --reload --port 8001
 
 dotnet test
 
+📄 License
+This project is licensed under the MIT License.
+
+🤝 Contributing
+Pull requests and suggestions are welcome. Let’s build a safer digital world for kids together.
