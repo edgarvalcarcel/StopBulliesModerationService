@@ -19,11 +19,11 @@ This microservice leverages **Azure NLP** and optionally a **Python-based FastAP
 This service is designed using **Clean Architecture** principles and organized into the following layers:
 
 ModerationService/
-├── Domain/ # Core business models and interfaces
-├── Application/ # Use cases and DTOs
-├── Infrastructure/ # Integration with Azure NLP and databases
-├── Presentation/ # Web API interface
-└── NLP/ # Python microservice (FastAPI)
+              ├── Domain/ # Core business models and interfaces
+              ├── Application/ # Use cases and DTOs
+              ├── Infrastructure/ # Integration with Azure NLP and databases
+              ├── Presentation/ # Web API interface
+              └── NLP/ # Python microservice (FastAPI)
 
 
 > View full architecture and class diagrams in the `docs/` directory.
